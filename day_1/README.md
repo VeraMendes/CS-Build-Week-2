@@ -8,18 +8,18 @@ Your function should return true if any value appears at least twice in the arra
 
 Example 1:
 
-```Input: [1,2,3,1]
-Output: true```
+`Input: [1,2,3,1]
+Output: true`
 
 Example 2:
 
-```Input: [1,2,3,4]
-Output: false```
+`Input: [1,2,3,4]
+Output: false`
 
 Example 3:
 
-```Input: [1,1,1,3,3,4,3,2,4,2]
-Output: true```
+`Input: [1,1,1,3,3,4,3,2,4,2]
+Output: true`
 
 
 ## Add Two Numbers
@@ -28,6 +28,6 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 Example:
 
-```Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+`Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
-Explanation: 342 + 465 = 807```
+Explanation: 342 + 465 = 807`
