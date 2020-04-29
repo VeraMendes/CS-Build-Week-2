@@ -7,8 +7,7 @@
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         l3 = ListNode()
-        l4 = l3
-       
+        l4 = l3  
         # if l1 and l2 exist
         while l1 and l2:
             if l1.val <= l2.val:
@@ -21,7 +20,6 @@ class Solution:
                 l3.next = ListNode()
                 l3 = l3.next
                 l2 = l2.next
-        
         # if only l1 exist
         if l1:
             while l1:
@@ -45,7 +43,7 @@ class Solution:
         # if both lists are empty
         else:
             return None
-        
+
         return l4
 
 
