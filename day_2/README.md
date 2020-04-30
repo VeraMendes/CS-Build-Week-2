@@ -13,15 +13,6 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 
-## Merge Two Sorted Lists
-
-Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
-
-Example:
-
-Input: 1->2->4, 1->3->4
-Output: 1->1->2->3->4->4
-
 ## Implement Queue using Stacks
 
 Implement the following operations of a queue using stacks.
