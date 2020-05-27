@@ -5,24 +5,55 @@
 ### Statistics and Modeling
 
 What is the Central Limit Theorem and why is it important?
+The central limit theorem tells us exactly what the shape of the distribution of means will be when we draw repeated samples from a given population. Specifically, as the sample sizes get larger, the distribution of means calculated from repeated sampling will approach normality.
+The central limit theorem tells us that no matter what the distribution of the population is, the shape of the sampling distribution will approach normality as the sample size (N) increases.
 
 What is sampling? How many sampling methods do you know?
+Sampling methods are the ways to choose people from the population to be considered in a sample survey. Samples can be divided based on following criteria. Probability samples - In such samples, each population element has a known probability or chance of being chosen for the sample.
+Random, Systematic, Convenience, Cluster, and Stratified. Random sampling is analogous to putting everyone's name into a hat and drawing out several names. Each element in the population has an equal chance of occuring.
+Random sampling is analogous to putting everyone's name into a hat and drawing out several names. Each element in the population has an equal chance of occuring. While this is the preferred way of sampling, it is often difficult to do. It requires that a complete list of every element in the population be obtained. Computer generated lists are often used with random sampling. You can generate random numbers using the TI82 calculator.
+Systematic sampling is easier to do than random sampling. In systematic sampling, the list of elements is "counted off". That is, every kth element is taken. This is similar to lining everyone up and numbering off "1,2,3,4; 1,2,3,4; etc". When done numbering, all people numbered 4 would be used.
+Convenience sampling is very easy to do, but it's probably the worst technique to use. In convenience sampling, readily available data is used. That is, the first people the surveyor runs into.
+Cluster sampling is accomplished by dividing the population into groups -- usually geographically. These groups are called clusters or blocks. The clusters are randomly selected, and each element in the selected clusters are used.
+Stratified sampling also divides the population into groups called strata. However, this time it is by some characteristic, not geographically. For instance, the population might be separated into males and females. A sample is taken from each of these strata using either random, systematic, or convenience sampling.
 
 What is the difference between type I vs type II error?
+In statistical hypothesis testing, a type I error is the rejection of a true null hypothesis, while a type II error is the non-rejection of a false null hypothesis.
+
+What is the elbow method and why do we use it?
+n cluster analysis, the elbow method is a heuristic used in determining the number of clusters in a data set. The method consists of plotting the explained variation as a function of the number of clusters, and picking the elbow of the curve as the number of clusters to use.
 
 What is linear regression? What do the terms p-value, coefficient, and r-squared value mean? What is the significance of each of these components?
+In statistics, linear regression is a linear approach to modeling the relationship between a scalar response and one or more explanatory variables. The case of one explanatory variable is called simple linear regression. For more than one explanatory variable, the process is called multiple linear regression.
+p-values and R-squared values measure different things. The p-value indicates if there is a significant relationship described by the model, and the R-squared measures the degree to which the data is explained by the model.
+P-values and coefficients in regression analysis work together to tell you which relationships in your model are statistically significant and the nature of those relationships. The coefficients describe the mathematical relationship between each independent variable and the dependent variable. The p-values for the coefficients indicate whether these relationships are statistically significant.
+
 
 What are the assumptions required for linear regression?
+There are four assumptions associated with a linear regression model:
+Linearity: The relationship between X and the mean of Y is linear.
+Homoscedasticity: The variance of residual is the same for any value of X.
+Independence: Observations are independent of each other.
+Normality: For any fixed value of X, Y is normally distributed.
 
 What is a statistical interaction?
+In statistics, an interaction may arise when considering the relationship among three or more variables, and describes a situation in which the effect of one causal variable on an outcome depends on the state of a second causal variable.
 
 What is selection bias?
+selection bias is the bias introduced by the selection of individuals, groups or data for analysis in such a way that proper randomization is not achieved, thereby ensuring that the sample obtained is not representative of the population intended to be analyzed. It is sometimes referred to as the selection effect.
 
 What is an example of a data set with a non-Gaussian distribution?
+Any distribution of money or value will be non--Gaussian. For example: distributions of income; distributions of house prices; distributions of bets placed on a sporting event. These distributions cannot have negative values and will usually have extended right hand tails.
 
 What is the Binomial Probability Formula?
+For the coin flip example, N = 2 and π = 0.5. The formula for the binomial distribution is shown below: where P(x) is the probability of x successes out of N trials, N is the number of trials, and π is the probability of success on a given trial.
 
 What's the normal distribution? Why do we care about it?
+The Data Behind the Bell Curve
+A normal distribution of data is one in which the majority of data points are relatively similar, meaning they occur within a small range of values with fewer outliers on the high and low ends of the data range.
+Characteristics of Normal Distribution
+Normal distributions are symmetric, unimodal, and asymptotic, and the mean, median, and mode are all equal. A normal distribution is perfectly symmetrical around its center. That is, the right side of the center is a mirror image of the left side.
+In all normal or nearly normal distributions, there is a constant proportion of the area under the curve lying between the mean and any given distance from the mean when measured in standard deviation units. For instance, in all normal curves, 99.73 percent of all cases fall within three standard deviations from the mean, 95.45 percent of all cases fall within two standard deviations from the mean, and 68.27 percent of cases fall within one standard deviation from the mean.
 
 How do we check if a variable follows the normal distribution?
 
@@ -131,12 +162,21 @@ What is precision, recall, and F1-score?
 Precision-recall trade-off
 
 What is the ROC curve? When to use it?
-
-What is AUC (AU ROC)? When to use it?
+A receiver operating characteristic curve, or ROC curve, is a graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied. The ROC curve is created by plotting the true positive rate against the false positive rate at various threshold settings. ROC curves are frequently used to show in a graphical way the connection/trade-off between clinical sensitivity and specificity for every possible cut-off for a test or a combination of tests. In addition the area under the ROC curve gives an idea about the benefit of using the test(s) in question.
 
 How to interpret the AU ROC score?
+Accuracy is measured by the area under the ROC curve. An area of 1 represents a perfect test; an area of . 5 represents a worthless test.
+...
+The Area Under an ROC Curve
+90-1 = excellent (A)
+80-. 90 = good (B)
+70-. 80 = fair (C)
+60-. 70 = poor (D)
+50-. 60 = fail (F)
 
 What is the PR (precision-recall) curve?
+A PR curve is simply a graph with Precision values on the y-axis and Recall values on the x-axis. ... It is important to note that Precision is also called the Positive Predictive Value (PPV). Recall is also called Sensitivity, Hit Rate or True Positive Rate (TPR)
+A no-skill classifier is one that cannot discriminate between the classes and would predict a random class or a constant class in all cases.
 
 What is the area under the PR curve? Is it a useful metric?
 
@@ -533,6 +573,23 @@ What is the difference between SQL and MySQL or SQL Server?
 If a table contains duplicate rows, does a query result display the duplicate values by default? How can you eliminate duplicate rows from a query result?
 
 ### Problem-Solving
+
+How would you come up with a solution to identify plagiarism?
+
+How many “useful” votes will a Yelp review receive?
+
+How do you detect individual paid accounts shared by multiple users?
+
+You are about to send a million emails. How do you optimize delivery? How do you optimize response?
+
+You have a data set containing 100,000 rows and 100 columns, with one of those columns being our dependent variable for a problem we’d like to solve. How can we quickly identify which columns will be helpful in predicting the dependent variable. Identify two techniques and explain them to me as though I were 5 years old.
+
+How would you detect bogus reviews, or bogus Facebook accounts used for bad purposes?
+This is an opportunity to showcase your knowledge of machine learning algorithms; specifically, sentiment analysis and text analysis algorithms. Showcase your knowledge of fraudulent behavior—what are the abnormal behaviors that can typically be seen from fraudulent accounts?
+
+How would you perform clustering on a million unique keywords, assuming you have 10 million data points—each one consisting of two keywords, and a metric measuring how similar these two keywords are? How would you create this 10 million data points table in the first place?
+
+How would you optimize a web crawler to run much faster, extract better information, and better summarize data to produce cleaner databases?
 
 ### Culture Fit
 
