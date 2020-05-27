@@ -4,11 +4,11 @@
 
 ### Statistics and Modeling
 
-What is the Central Limit Theorem and why is it important?
+What is the Central Limit Theorem and why is it important?  
 The central limit theorem tells us exactly what the shape of the distribution of means will be when we draw repeated samples from a given population. Specifically, as the sample sizes get larger, the distribution of means calculated from repeated sampling will approach normality.
 The central limit theorem tells us that no matter what the distribution of the population is, the shape of the sampling distribution will approach normality as the sample size (N) increases.
 
-What is sampling? How many sampling methods do you know?
+What is sampling? How many sampling methods do you know?  
 Sampling methods are the ways to choose people from the population to be considered in a sample survey. Samples can be divided based on following criteria. Probability samples - In such samples, each population element has a known probability or chance of being chosen for the sample.
 Random, Systematic, Convenience, Cluster, and Stratified. Random sampling is analogous to putting everyone's name into a hat and drawing out several names. Each element in the population has an equal chance of occuring.
 Random sampling is analogous to putting everyone's name into a hat and drawing out several names. Each element in the population has an equal chance of occuring. While this is the preferred way of sampling, it is often difficult to do. It requires that a complete list of every element in the population be obtained. Computer generated lists are often used with random sampling. You can generate random numbers using the TI82 calculator.
@@ -17,38 +17,38 @@ Convenience sampling is very easy to do, but it's probably the worst technique t
 Cluster sampling is accomplished by dividing the population into groups -- usually geographically. These groups are called clusters or blocks. The clusters are randomly selected, and each element in the selected clusters are used.
 Stratified sampling also divides the population into groups called strata. However, this time it is by some characteristic, not geographically. For instance, the population might be separated into males and females. A sample is taken from each of these strata using either random, systematic, or convenience sampling.
 
-What is the difference between type I vs type II error?
+What is the difference between type I vs type II error?  
 In statistical hypothesis testing, a type I error is the rejection of a true null hypothesis, while a type II error is the non-rejection of a false null hypothesis.
 
-What is the elbow method and why do we use it?
+What is the elbow method and why do we use it?  
 n cluster analysis, the elbow method is a heuristic used in determining the number of clusters in a data set. The method consists of plotting the explained variation as a function of the number of clusters, and picking the elbow of the curve as the number of clusters to use.
 
-What is linear regression? What do the terms p-value, coefficient, and r-squared value mean? What is the significance of each of these components?
+What is linear regression? What do the terms p-value, coefficient, and r-squared value mean? What is the significance of each of these components?  
 In statistics, linear regression is a linear approach to modeling the relationship between a scalar response and one or more explanatory variables. The case of one explanatory variable is called simple linear regression. For more than one explanatory variable, the process is called multiple linear regression.
 p-values and R-squared values measure different things. The p-value indicates if there is a significant relationship described by the model, and the R-squared measures the degree to which the data is explained by the model.
 P-values and coefficients in regression analysis work together to tell you which relationships in your model are statistically significant and the nature of those relationships. The coefficients describe the mathematical relationship between each independent variable and the dependent variable. The p-values for the coefficients indicate whether these relationships are statistically significant.
 
 
-What are the assumptions required for linear regression?
+What are the assumptions required for linear regression?  
 There are four assumptions associated with a linear regression model:
 Linearity: The relationship between X and the mean of Y is linear.
 Homoscedasticity: The variance of residual is the same for any value of X.
 Independence: Observations are independent of each other.
 Normality: For any fixed value of X, Y is normally distributed.
 
-What is a statistical interaction?
+What is a statistical interaction?  
 In statistics, an interaction may arise when considering the relationship among three or more variables, and describes a situation in which the effect of one causal variable on an outcome depends on the state of a second causal variable.
 
-What is selection bias?
+What is selection bias?  
 selection bias is the bias introduced by the selection of individuals, groups or data for analysis in such a way that proper randomization is not achieved, thereby ensuring that the sample obtained is not representative of the population intended to be analyzed. It is sometimes referred to as the selection effect.
 
-What is an example of a data set with a non-Gaussian distribution?
+What is an example of a data set with a non-Gaussian distribution?  
 Any distribution of money or value will be non--Gaussian. For example: distributions of income; distributions of house prices; distributions of bets placed on a sporting event. These distributions cannot have negative values and will usually have extended right hand tails.
 
-What is the Binomial Probability Formula?
+What is the Binomial Probability Formula?  
 For the coin flip example, N = 2 and π = 0.5. The formula for the binomial distribution is shown below: where P(x) is the probability of x successes out of N trials, N is the number of trials, and π is the probability of success on a given trial.
 
-What's the normal distribution? Why do we care about it?
+What's the normal distribution? Why do we care about it?  
 The Data Behind the Bell Curve
 A normal distribution of data is one in which the majority of data points are relatively similar, meaning they occur within a small range of values with fewer outliers on the high and low ends of the data range.
 Characteristics of Normal Distribution
@@ -109,13 +109,18 @@ What is linear regression? When do we use it?
 
 What if we want to build a model for predicting prices? Are prices distributed normally? Do we need to do any pre-processing for prices?
 
-What are the methods for solving linear regression do you know?
+What are the methods for solving linear regression do you know?  
+The Linear Regression Equation
+The equation has the form Y= a + bX, where Y is the dependent variable (that's the variable that goes on the Y axis), X is the independent variable (i.e. it is plotted on the X axis), b is the slope of the line and a is the y-intercept.
 
-What is gradient descent? How does it work?
+What is gradient descent? How does it work?  
+Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient. In machine learning, we use gradient descent to update the parameters of our model. With gradient descent we try to find the global minima, even though sometimes we get stuck on a local minima.
 
 What is the normal equation?
 
-What is SGD - stochastic gradient descent? What's the difference with the usual gradient descent?
+What is SGD - stochastic gradient descent? What's the difference with the usual gradient descent?  
+So in a nutshell, Stochastic is one by one approach whereas, batch gradient descent is one go approach. Another difference between two is Stochastic gradient descent is faster than normal gradient descent.
+Gradient descent is a simple optimization procedure that you can use with many machine learning algorithms. ... Stochastic gradient descent refers to calculating the derivative from each training data instance and calculating the update immediately.
 
 Which metrics for evaluating regression models do you know?
 
@@ -127,9 +132,12 @@ How to do you validate your models?
 
 Why do we need to split our data into three parts: train, validation, and test?
 
-Can you explain how cross-validation works?
+Can you explain how cross-validation works?  
+Cross-validation is a technique used to protect against overfitting in a predictive model, particularly in a case where the amount of data may be limited. In cross-validation, you make a fixed number of folds (or partitions) of the data, run the analysis on each fold, and then average the overall error estimate.
 
-What is K-fold cross-validation?
+What is K-fold cross-validation?  
+k-Fold Cross-Validation. Cross-validation is a resampling procedure used to evaluate machine learning models on a limited data sample. The procedure has a single parameter called k that refers to the number of groups that a given data sample is to be split into.
+
 
 How do we choose K in K-fold cross-validation? What's your favourite K?
 
