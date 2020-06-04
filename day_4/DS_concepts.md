@@ -55,13 +55,15 @@ Characteristics of Normal Distribution
 Normal distributions are symmetric, unimodal, and asymptotic, and the mean, median, and mode are all equal. A normal distribution is perfectly symmetrical around its center. That is, the right side of the center is a mirror image of the left side.
 In all normal or nearly normal distributions, there is a constant proportion of the area under the curve lying between the mean and any given distance from the mean when measured in standard deviation units. For instance, in all normal curves, 99.73 percent of all cases fall within three standard deviations from the mean, 95.45 percent of all cases fall within two standard deviations from the mean, and 68.27 percent of cases fall within one standard deviation from the mean.
 
-How do we check if a variable follows the normal distribution?
+How do we check if a variable follows the normal distribution?  
+The Kolmogorov-Smirnov test (K-S) and Shapiro-Wilk (S-W) test are designed to test normality by comparing your data to a normal distribution with the same mean and standard deviation of your sample. If the test is NOT significant, then the data are normal, so any value above . 05 indicates normality.
 
 What is the sparsity problem particular to random forests & boosting models?
 
 Suppose you have 1000 features and n=10million. What is a suitable number of trees to start looking for in a random forest?
 
-How is feature importance calculated for random forest, XGBoost, etc?
+How is feature importance calculated for random forest, XGBoost, etc?  
+Feature importance is calculated as the decrease in node impurity weighted by the probability of reaching that node. The node probability can be calculated by the number of samples that reach the node, divided by the total number of samples. The higher the value the more important the feature.
 
 How do you determine important features from linear models?
 
@@ -94,6 +96,7 @@ Suppose you have n=200, and 10 features. Should you be conservative in your hype
 Suppose you have continuous data for heights. In addition, you have categorical variables "small height", "med height", "tall height" which was manually created by a former data scientist. Should you include all features? Are the categorical versions necessary in random forest or boosting models?
 
 How would you treat categorical features?
+
 
 What kinds of imputation techniques would you use for numeric and categorical features? What are the pros and cons to each?
 
