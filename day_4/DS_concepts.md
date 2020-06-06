@@ -104,7 +104,8 @@ Do you need a separate validation set if you will be using cross-fold validation
 
 When should you touch the test set? What is the maximum number of times you can touch the test set?
 
-What is supervised machine learning?
+What is supervised machine learning?  
+Supervised learning is the machine learning task of learning a function that maps an input to an output based on example input-output pairs. It infers a function from labeled training data consisting of a set of training examples.
 
 What is regression? Which models can you use to solve a regression problem?
 
@@ -167,11 +168,15 @@ What is sigmoid? What does it do?
 
 How do we evaluate classification models?
 
-What is accuracy?
+What is accuracy?  
+the degree to which the result of a measurement, calculation, or specification conforms to the correct value or a standard.
 
 Is accuracy always a good metric?
+Not always, specially in case of imbalanced classes.
 
-What is the confusion table? What are the cells in this table?
+What is the confusion table? What are the cells in this table?  
+In the field of machine learning and specifically the problem of statistical classification, a confusion matrix, also known as an error matrix, is a specific table layout that allows visualization of the performance of an algorithm, typically a supervised learning one.
+Cells are: True Positives; False Positives; True Negatives; False Negatives.
 
 What is precision, recall, and F1-score?
 
