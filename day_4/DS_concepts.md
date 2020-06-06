@@ -65,19 +65,26 @@ Suppose you have 1000 features and n=10million. What is a suitable number of tre
 How is feature importance calculated for random forest, XGBoost, etc?  
 Feature importance is calculated as the decrease in node impurity weighted by the probability of reaching that node. The node probability can be calculated by the number of samples that reach the node, divided by the total number of samples. The higher the value the more important the feature.
 
-How do you determine important features from linear models?
+How do you determine important features from linear models?  
+
 
 What happens to feature importance measures when there are highly related variables in a random forest/xgboost?
 
-What are the most important hyperparameters in random forest, xgboost, etc.
 
-Suppose you have n = 20 and 200 features, is a random forest or xgboost model suitable?
+What are the most important hyperparameters in random forest, xgboost, etc.  
 
-What is the loss function for SVM, random forest, linear regression, etc?
 
-Where/when is the regularization penalty applied i.e. the loss function or parameters?
+Suppose you have n = 20 and 200 features, is a random forest or xgboost model suitable?  
 
-When is L1 not a suitable regularization penalty?
+
+What is the loss function for SVM, random forest, linear regression, etc?  
+
+
+Where/when is the regularization penalty applied i.e. the loss function or parameters?  
+
+
+When is L1 not a suitable regularization penalty?  
+
 
 Suppose you have n = 200. Is k=10 for cross-fold validation appropriate? If k=10 and test_size=0.3, what is the expected number of training samples per fold?
 
