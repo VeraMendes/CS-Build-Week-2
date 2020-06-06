@@ -108,7 +108,9 @@ What is supervised machine learning?
 
 What is regression? Which models can you use to solve a regression problem?
 
-What is linear regression? When do we use it?
+What is linear regression? When do we use it?  
+Linear regression is the most basic and commonly used predictive analysis. Regression estimates are used to describe data and to explain the relationship.
+It is the next step up after correlation. It is used when we want to predict the value of a variable based on the value of another variable. The variable we want to predict is called the dependent variable
 
 What if we want to build a model for predicting prices? Are prices distributed normally? Do we need to do any pre-processing for prices?
 
@@ -127,9 +129,12 @@ Gradient descent is a simple optimization procedure that you can use with many m
 
 Which metrics for evaluating regression models do you know?
 
-What are MSE and RMSE?
+What are MSE and RMSE?  
+The Mean Squared Error (MSE) is a measure of how close a fitted line is to data points. ... The MSE has the units squared of whatever is plotted on the vertical axis. Another quantity that we calculate is the Root Mean Squared Error (RMSE). It is just the square root of the mean square error.
+The smaller the Mean Squared Error, the closer the fit is to the data. The MSE has the units squared of whatever is plotted on the vertical axis. ... The RMSE is directly interpretable in terms of measurement units, and so is a better measure of goodness of fit than a correlation coefficient.
 
-What is overfitting?
+What is overfitting?  
+In statistics, overfitting is "the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit additional data or predict future observations reliably". An overfitted model is a statistical model that contains more parameters than can be justified by the data. The essence of overfitting is to have unknowingly extracted some of the residual variation (i.e. the noise) as if that variation represented underlying model structure.
 
 How to do you validate your models?
 
