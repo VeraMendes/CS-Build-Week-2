@@ -202,7 +202,7 @@ What is sigmoid? What does it do?
 
 
 How do we evaluate classification models?  
-
+Via evaluation metrics for classification: accuracy, confusion matrix, ROC-AUC.
 
 What is accuracy?  
 the degree to which the result of a measurement, calculation, or specification conforms to the correct value or a standard.
