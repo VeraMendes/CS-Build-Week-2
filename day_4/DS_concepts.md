@@ -379,7 +379,7 @@ How does a usual fully-connected neural network work?
 
 
 Why do we need activation functions?  
-
+The purpose of an activation function is to add some kind of non-linear property to the function, which is a neural network. ... A neural network without any activation function would not be able to realize such complex mappings mathematically and would not be able to solve tasks we want the network to solve.
 
 What are the problems with sigmoid as an activation function?  
 
@@ -409,13 +409,13 @@ How do we use SGD (stochastic gradient descent) for training a neural net?
 
 
 What's the learning rate?  
-
+The amount that the weights are updated during training is referred to as the step size or the “learning rate.” Specifically, the learning rate is a configurable hyperparameter used in the training of neural networks that has a small positive value, often in the range between 0.0 and 1.0.
 
 What happens when the learning rate is too large? Too small?  
 
 
 How to choose the learning rate?  
-
+There are multiple ways to select a good starting point for the learning rate. A naive approach is to try a few different values and see which one gives you the best loss without sacrificing speed of training. We might start with a large value like 0.1, then try exponentially lower values: 0.01, 0.001, etc.
 
 What is Adam? What's the main difference between Adam and SGD?  
 
@@ -430,7 +430,7 @@ How do we decide when to stop training a neural net?
 
 
 What is model checkpointing?  
-
+The TensorFlow save method saves three kinds of files because it stores the graph structure separately from the variable values. The . ... Even though there is no file named model. ckpt , you still refer to the saved checkpoint by that name when restoring it.
 
 Can you tell us how you approach the model training process?  
 
@@ -439,7 +439,8 @@ How we can use neural nets for computer vision?
 
 
 What is a convolution? What's a convolutional layer?  
-
+In mathematics convolution is a mathematical operation on two functions that produces a third function expressing how the shape of one is modified by the other. The term convolution refers to both the result function and to the process of computing it.
+Convolutional layers are the major building blocks used in convolutional neural networks. A convolution is the simple application of a filter to an input that results in an activation. ... The result is highly specific features that can be detected anywhere on input images.
 
 Why do we actually need convolutions? Can't we use a fully-connected layer for that?  
 
