@@ -581,7 +581,7 @@ How do you do an online evaluation of a new ranking algorithm?
 
 
 What is a recommender system?  
-
+A recommender system, or a recommendation system, is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item. They are primarily used in commercial applications.
 
 What are good baselines when building a recommender system?  
 
