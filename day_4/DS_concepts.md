@@ -587,7 +587,7 @@ What are good baselines when building a recommender system?
 
 
 What is collaborative filtering?  
-
+Collaborative filtering is a technique used by recommender systems. Collaborative filtering has two senses, a narrow one and a more general one.
 
 How we can incorporate implicit feedback (clicks, etc) into our recommender systems?  
 
@@ -599,7 +599,7 @@ Possible approaches to solving the cold start problem?
 
 
 What is a time series?   
-
+A time series is a series of data points indexed in time order. Most commonly, a time series is a sequence taken at successive equally spaced points in time. Thus it is a sequence of discrete-time data. 
 
 How is time series different from the usual regression problem?  
 
@@ -650,10 +650,10 @@ What is root cause analysis?
 
 
 What are hash table collisions?  
-
+Hash table is a data structure that uses a hash function to map elements(keys) to an index. ... A collision occurs when two or more elements are hashed(mapped) to same value. For example: Let the hash function be hash(x) = x%10. In this case 25 and 35 would be mapped to same value. Hence a collision occurs.
 
 What is an exact test?  
-
+In statistics, an exact test is a test where if the null hypothesis is true then all assumptions, upon which the derivation of the distribution of the test statistic is based, are met.
 
 In your opinion, which is more important when designing a machine learning model: model performance or model accuracy?  
 
@@ -713,7 +713,7 @@ What is an online learning system?
 
 
 What is out-of-core learning?  
-
+Out-of-core learning refers to a set of algorithms working with data that cannot fit into the memory of a single computer, but that can easily fit into some data storage such as a local hard disk or web repository.
 
 What type of learning algorithm relies on a similarity measure to make predictions?  
 
