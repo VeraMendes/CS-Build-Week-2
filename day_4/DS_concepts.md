@@ -455,10 +455,11 @@ Are CNNs resistant to rotations? What happens to the predictions of a CNN if an 
 
 
 What are augmentations? Why do we need them?  
-
+Data augmentation is a way of creating new 'data' with different orientations. The benefits of this are two fold, the first being the ability to generate 'more data' from limited data and secondly it prevents over fitting.
+Data augmentation is a strategy that enables practitioners to significantly increase the diversity of data available for training models, without actually collecting new data.
 
 What kind of augmentations do you know?  
-
+Data augmentation techniques such as cropping, padding, and horizontal flipping are commonly used to train large neural networks.
 
 How to choose which augmentations to use?  
 
@@ -467,10 +468,19 @@ What kind of CNN architectures for classification do you know?
 
 
 What is transfer learning? How does it work?  
-
+Transfer learning is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem.
+For example, knowledge gained while learning to recognize cars could apply when trying to recognize trucks.
+We can use knowledge from one pretrained model to work with another dataset, using the neural network architecture and the weights for respective classes.
 
 What is object detection? Do you know any architectures for that?  
-
+Object detection is a computer technology related to computer vision and image processing that deals with detecting instances of semantic objects of a certain class in digital images and videos. Well-researched domains of object detection include face detection and pedestrian detection.
+R-CNN. R-CNN uses search selective method to find the regions to detect objects after it passes through convolutional networks. ...
+Resnet50. The Resnet50 is a deep residual neural network that can also be used for object detection. ...
+FPN. It uses pooling as a method of selection. ...
+Retinanet. ...
+Yolo V3/V2. ...
+Faster R-CNN. ...
+SSD.
 
 What is object segmentation? Do you know any architectures for that?  
 
@@ -479,10 +489,16 @@ How can we use machine learning for text classification?
 
 
 What is bag of words? How we can use it for text classification?  
-
+The bag-of-words model is a simplifying representation used in natural language processing and information retrieval. In this model, a text is represented as the bag of its words, disregarding grammar and even word order but keeping multiplicity. The bag-of-words model has also been used for computer vision. 
+The bag-of-words model is commonly used in methods of document classification where the (frequency of) occurrence of each word is used as a feature for training a classifier. An early reference to "bag of words" in a linguistic context can be found in Zellig Harris's 1954 article on Distributional Structure.
 
 What are the advantages and disadvantages of bag of words?  
-
+Advantages:
+Very simple to understand and implement.
+Disadvantages:
+Bag of words leads to a high dimensional feature vector due to large size of Vocabulary, V.
+Bag of words doesn’t leverage co-occurrence statistics between words. In other words, it assumes all words are independent of each other. 
+It leads to a highly sparse vectors as there is nonzero value in dimensions corresponding to words that occur in the sentence.
 
 What are N-grams? How can we use them?  
 
@@ -518,7 +534,7 @@ How can we use CNN for text classification?
 
 
 What is unsupervised learning?  
-
+Unsupervised learning is a type of machine learning that looks for previously undetected patterns in a data set with no pre-existing labels and with a minimum of human supervision.
 
 What is clustering? When do we need it?  
 
