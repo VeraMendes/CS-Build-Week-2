@@ -95,7 +95,7 @@ What kinds of feature transformations are random forests and xgboost invariant t
 
 
 How do you measure how well your clustering algorithm worked?  
-
+Sum of within-cluster variance, W, is calculated for clustering analyses done with different values of k. W is a cumulative measure how good the points are clustered in the analysis. Plotting the k values and their corresponding sum of within-cluster variance helps in finding the number of clusters.
 
 When should you consider adding a multiple testing penalty? What are the tradeoffs for each of the different types of penalties.  
 
@@ -241,7 +241,7 @@ What is the area under the PR curve? Is it a useful metric?
 
 
 In which cases AU PR is better than AU ROC?  
-
+If one method is better in AU-ROC but worse in AU-PR, then the method is better in Recall but worse in Precision. So you should use this method when you want high recall. If one method is better in AU-PR but worse in AU-ROC, then the method is better in Precision but worse in Recall.
 
 What do we do with categorical variables?  
 
@@ -298,7 +298,7 @@ Can we use L2 regularization for feature selection?
 
 
 What are the decision trees?  
-
+A decision tree is a decision support tool that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements.
 
 How do we train decision trees?  
 
@@ -316,7 +316,7 @@ How can we know which features are more important for the decision tree model?
 
 
 What is random forest?  
-
+A decision tree is a decision support tool that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements.
 
 Why do we need randomization in random forest?  
 
@@ -343,7 +343,7 @@ What happens to random forest when we have correlated features in our data?
 
 
 What is gradient boosting trees?  
-
+Gradient boosting is a machine learning technique for regression and classification problems, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees. ... Explicit regression gradient boosting algorithms were subsequently developed by Jerome H.
 
 What's the difference between random forest and gradient boosting?  
 
@@ -373,7 +373,7 @@ What's the difference between grid search parameter tuning strategy and random s
 
 
 What kind of problems neural nets can solve?  
-
+Today, neural networks are used for solving many business problems such as sales forecasting, customer research, data validation, and risk management. For example, at Statsbot we apply neural networks for time-series predictions, anomaly detection in data, and natural language understanding.
 
 How does a usual fully-connected neural network work?  
 
@@ -537,10 +537,11 @@ What is unsupervised learning?
 Unsupervised learning is a type of machine learning that looks for previously undetected patterns in a data set with no pre-existing labels and with a minimum of human supervision.
 
 What is clustering? When do we need it?  
-
+Cluster analysis or clustering is the task of grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups.
+Clustering can be considered the most important unsupervised learning problem; so, as every other problem of this kind, it deals with finding a structure in a collection of unlabeled data. A loose definition of clustering could be “the process of organizing objects into groups whose members are similar in some way”.
 
 Do you know how K-means works?  
-
+The k-means clustering algorithm attempts to split a given anonymous data set (a set containing no information as to class identity) into a fixed number (k) of clusters. Initially k number of so called centroids are chosen. ... Each centroid is thereafter set to the arithmetic mean of the cluster it defines.
 
 How to select K for K-means?  
 
