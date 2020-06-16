@@ -286,7 +286,7 @@ What is feature selection? Why do we need it?
 
 
 Is feature selection important for linear models?  
-
+Feature Selection Techniques in Regression Model. ... Many times feature selection becomes very useful to overcome with overfitting problem. It helps us in determining the smallest set of features that are needed to predict the response variable with high accuracy.
 
 Which feature selection techniques do you know?  
 
@@ -466,7 +466,7 @@ How to choose which augmentations to use?
 
 
 What kind of CNN architectures for classification do you know?  
-
+LeNet-5 architecture is perhaps the most widely known CNN architecture. It was created by Yann LeCun in 1998 and widely used for written digits recognition (MNIST). Here is the LeNet-5 architecture. We start off with a grayscale image (LeNet-5 was trained on grayscale images), with a shape of 32×32 x1.
 
 What is transfer learning? How does it work?  
 Transfer learning is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem.
@@ -579,7 +579,7 @@ What is precision and recall at k?
 
 
 What is mean average precision at k?  
-
+Mean Average Precision at K. ... APK is a measure of the average relevance scores of a set of the top-K documents presented in response to a query. For each query instance, we will compare the set of top-K results with the set of actual relevant documents, that is, a ground truth set of relevant documents for the query.
 
 How can we use machine learning for search?  
 
