@@ -187,7 +187,7 @@ What is regularization? Why do we need it?
 
 
 Which regularization techniques do you know?  
-
+Regularization techniques work by limiting the capacity of models—such as neural networks, linear regression, or logistic regression—by adding a parameter norm penalty Ω(θ) to the objective function. L2 regularization is also known as ridge regression or Tikhonov regularization.
 
 What is classification? Which models would you use to solve a classification problem?  
 
@@ -418,7 +418,8 @@ How to choose the learning rate?
 There are multiple ways to select a good starting point for the learning rate. A naive approach is to try a few different values and see which one gives you the best loss without sacrificing speed of training. We might start with a large value like 0.1, then try exponentially lower values: 0.01, 0.001, etc.
 
 What is Adam? What's the main difference between Adam and SGD?  
-
+Adam is an adaptive learning rate optimization algorithm that's been designed specifically for training deep neural networks. ... The algorithms leverages the power of adaptive learning rates methods to find individual learning rates for each parameter.
+First proposed in the 1950s, the technique can update each parameter of a model, observe how a change would affect the objective function, choose a direction that would lower the error rate, and continue iterating until the objective function converges to the minimum. SGD is a variant of gradient descent.
 
 When would you use Adam and when SGD?  
 
@@ -544,7 +545,8 @@ Do you know how K-means works?
 The k-means clustering algorithm attempts to split a given anonymous data set (a set containing no information as to class identity) into a fixed number (k) of clusters. Initially k number of so called centroids are chosen. ... Each centroid is thereafter set to the arithmetic mean of the cluster it defines.
 
 How to select K for K-means?  
-
+The Elbow Method
+This is probably the most well-known method for determining the optimal number of clusters. It is also a bit naive in its approach. Calculate the Within-Cluster-Sum of Squared Errors (WSS) for different values of k, and choose the k for which WSS becomes first starts to diminish.
 
 What are the other clustering algorithms do you know?  
 
