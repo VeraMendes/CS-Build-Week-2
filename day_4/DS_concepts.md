@@ -508,6 +508,8 @@ How large should be N for our bag of words when using N-grams?
 
 
 What is TF-IDF? How it's useful for text classification?  
+In information retrieval, tf–idf or TFIDF, short for term frequency–inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus.
+It is a technique which is used to find meaning of sentences consisting of words and cancels out the incapabilities of Bag of Words technique which is good for text classification or for helping a machine read words in numbers.
 
 
 Which model would you choose for text classification with bag of words features?  
@@ -612,7 +614,7 @@ How we can incorporate implicit feedback (clicks, etc) into our recommender syst
 
 
 What is the cold start problem?  
-
+Cold start in computing refers to a problem where a system or its part was created or restarted and is not working at its normal operation. The problem can be related to initialising internal objects or populating cache or starting up subsystems.
 
 Possible approaches to solving the cold start problem?  
 
@@ -648,7 +650,7 @@ How would you effectively represent data with 5 dimensions?
 
 
 How is k-NN different from k-means clustering?  
-
+KNN represents a supervised classification algorithm that will give new data points accordingly to the k number or the closest data points, while k-means clustering is an unsupervised clustering algorithm that gathers and groups data into k number of clusters.
 
 How would you create a logistic regression model?  
 
@@ -705,16 +707,20 @@ Is it better to have too many false positives or too many false negatives?
 
 
 How would you define Machine Learning?  
-
+Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it learn for themselves.
 
 Can you name four types of problems where it shines?  
-
+Machine Learning is great for:
+Problems for which existing solutions require a lot of hand-tuning or long lists of rules: one Machine Learning algorithm can often simplify code and perform better.
+Complex problems for which there is no good solution at all using a traditional approach: the best Machine Learning techniques can find a solution.
+Fluctuating environments: a Machine Learning system can adapt to new data.
+Getting insights about complex problems and large amounts of data.
 
 What is a labeled training set?  
-
+Labeled data is a group of samples that have been tagged with one or more labels. ... After obtaining a labeled dataset, machine learning models can be applied to the data so that new unlabeled data can be presented to the model and a likely label can be guessed or predicted for that piece of unlabeled data.
 
 What are the two most common supervised tasks?  
-
+The two most common supervised tasks are regression and classification.
 
 Can you name four common unsupervised tasks?  
 
@@ -729,7 +735,7 @@ Would you frame the problem of spam detection as supervised or unsupervised?
 
 
 What is an online learning system?  
-
+Online learning is education that takes place over the Internet. It is often referred to as “e- learning” among other terms. However, online learning is just one type of “distance learning” - the umbrella term for any learning that takes place across distance and not in a traditional classroom.
 
 What is out-of-core learning?  
 Out-of-core learning refers to a set of algorithms working with data that cannot fit into the memory of a single computer, but that can easily fit into some data storage such as a local hard disk or web repository.
@@ -753,7 +759,7 @@ What is a test set and why would you want to use it?
 
 
 What is the purpose of a validation set?  
-
+A validation set is a set of data used to train artificial intelligence (AI) with the goal of finding and optimizing the best model to solve a given problem. Validation sets are also known as dev sets.
 
 What can go wrong if you tune hyperparameters using the test set?  
 
