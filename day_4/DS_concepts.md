@@ -668,7 +668,7 @@ Explain the difference between L1 and L2 regularization methods.
 
 
 What is root cause analysis?  
-
+In science and engineering, root cause analysis is a method of problem solving used for identifying the root causes of faults or problems. It is widely used in IT operations, telecommunications, industrial process control, accident analysis, medicine, healthcare industry, etc.
 
 What are hash table collisions?  
 Hash table is a data structure that uses a hash function to map elements(keys) to an index. ... A collision occurs when two or more elements are hashed(mapped) to same value. For example: Let the hash function be hash(x) = x%10. In this case 25 and 35 would be mapped to same value. Hence a collision occurs.
