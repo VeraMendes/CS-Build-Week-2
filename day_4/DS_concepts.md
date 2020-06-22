@@ -783,9 +783,11 @@ How would you clean a data set in (insert language here)?
 
 Tell me about the coding you did during your last project?
 
-What are two main components of the Hadoop framework?
+What are two main components of the Hadoop framework?  
+HDFS (storage) and MapReduce (processing) are the two core components of Apache Hadoop. 
 
-Explain how MapReduce works as simply as possible.
+Explain how MapReduce works as simply as possible.  
+The core idea behind MapReduce is mapping your data set into a collection of <key, value> pairs, and then reducing over all pairs with the same key. The overall concept is simple, but is actually quite expressive when you consider that: ... Almost all data can be mapped into <key, value> pairs somehow, and 2.
 
 How would you sort a large list of numbers?
 
