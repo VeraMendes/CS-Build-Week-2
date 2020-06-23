@@ -554,16 +554,23 @@ What are the other clustering algorithms do you know?
 
 
 Do you know how DBScan works?  
-
+DBSCAN works as such: Divides the dataset into n dimensions. ... DBSCAN counts this shape as a cluster. DBSCAN iteratively expands the cluster, by going through each individual point within the cluster, and counting the number of other data points nearby.
 
 When would you choose K-means and when DBScan?  
-
+ Density clustering algorithms use the concept of reachability i.e. how many neighbors has a point within a radius. DBScan is more lovely because it doesn't need parameter, k, which is the number of clusters we are trying to find, which KMeans needs.
 
 What is the curse of dimensionality? Why do we care about it?  
 
 
 Do you know any dimensionality reduction techniques?  
-
+Seven Techniques for Data Dimensionality Reduction  
+Missing Values Ratio. Data columns with too many missing values are unlikely to carry much useful information.  
+Low Variance Filter.  
+High Correlation Filter.  
+Random Forests / Ensemble Trees.  
+Principal Component Analysis (PCA).  
+Backward Feature Elimination.  
+Forward Feature Construction.  
 
 What's singular value decomposition? How is it typically used for machine learning?   
 
