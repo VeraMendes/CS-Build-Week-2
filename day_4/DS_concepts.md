@@ -777,6 +777,8 @@ What is repeated cross-validation and why would you prefer it to using a single 
 ### Programming
 
 With which programming languages and environments are you most comfortable working?
+Python
+Pipenv virtual environment, Anaconda Local environment, colab env
 
 What are some pros and cons about your favorite statistical software?
 
@@ -785,6 +787,7 @@ Tell me about an original algorithm you’ve created.
 Describe a data science project in which you worked with a substantial programming component. What did you learn from that experience?
 
 Do you contribute to any open-source projects?
+All the projects I done up to now are open-source projects.
 
 How would you clean a data set in (insert language here)?
 
@@ -803,10 +806,12 @@ Say you’re given a large data set. What would be your plan for dealing with ou
 What modules/libraries are you most familiar with? What do you like or dislike about them?
 
 In Python, how is memory managed?
+Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the Python memory manager.
 
 What are the supported data types in Python?
 
 What is the difference between a tuple and a list in Python?
+ List and Tuple in Python are the class of data structure. The list is dynamic, whereas tuple has static characteristics. ... Tuple is also a sequence data type that can contain elements of different data types, but these are immutable in nature.
 
 What are the different types of sorting algorithms available in R language?
 
