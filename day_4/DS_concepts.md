@@ -145,14 +145,18 @@ What is gradient descent? How does it work?
 Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient. In machine learning, we use gradient descent to update the parameters of our model. With gradient descent we try to find the global minima, even though sometimes we get stuck on a local minima.
 
 What is the normal equation?  
-
+Normal equations are equations obtained by setting equal to zero the partial derivatives of the sum of squared errors (least squares); normal equations allow one to estimate the parameters of a multiple linear regression.
 
 What is SGD - stochastic gradient descent? What's the difference with the usual gradient descent?  
 So in a nutshell, Stochastic is one by one approach whereas, batch gradient descent is one go approach. Another difference between two is Stochastic gradient descent is faster than normal gradient descent.
 Gradient descent is a simple optimization procedure that you can use with many machine learning algorithms. ... Stochastic gradient descent refers to calculating the derivative from each training data instance and calculating the update immediately.
 
 Which metrics for evaluating regression models do you know?  
-
+Mean Squared Error(MSE)
+Root-Mean-Squared-Error(RMSE).
+Mean-Absolute-Error(MAE).
+R² or Coefficient of Determination.
+Adjusted R²
 
 What are MSE and RMSE?  
 The Mean Squared Error (MSE) is a measure of how close a fitted line is to data points. ... The MSE has the units squared of whatever is plotted on the vertical axis. Another quantity that we calculate is the Root Mean Squared Error (RMSE). It is just the square root of the mean square error.
@@ -162,7 +166,13 @@ What is overfitting?
 In statistics, overfitting is "the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit additional data or predict future observations reliably". An overfitted model is a statistical model that contains more parameters than can be justified by the data. The essence of overfitting is to have unknowingly extracted some of the residual variation (i.e. the noise) as if that variation represented underlying model structure.
 
 How to do you validate your models?  
-
+The following methods for validation will be demonstrated: Train/test split.  
+Splitting your data. The basis of all validation techniques is splitting your data when training your model.  
+k-Fold Cross-Validation (k-Fold CV)  
+Leave-one-out Cross-Validation (LOOCV)   
+Nested Cross-Validation.  
+Time Series CV.  
+Comparing Models.
 
 Why do we need to split our data into three parts: train, validation, and test?  
 
@@ -184,7 +194,7 @@ What happens to our linear regression model if the column z in the data is a sum
 
 
 What is regularization? Why do we need it?  
-
+In mathematics, statistics, and computer science, particularly in machine learning and inverse problems, regularization is the process of adding information in order to solve an ill-posed problem or to prevent overfitting. Regularization applies to objective functions in ill-posed optimization problems. Regularization refers to the method of preventing overfitting, by explicitly controlling the model complexity. It leads to smoothening of the regression line and thus prevents overfitting. It does so by penalizing the bent of the regression line that tries to closely match the noisy data points.
 
 Which regularization techniques do you know?  
 Regularization techniques work by limiting the capacity of models—such as neural networks, linear regression, or logistic regression—by adding a parameter norm penalty Ω(θ) to the objective function. L2 regularization is also known as ridge regression or Tikhonov regularization.
@@ -218,7 +228,7 @@ What is precision, recall, and F1-score?
 
 
 Precision-recall trade-off  
-
+Recall is the fraction of correct positives among the total positives in the dataset. ... This miss rate is either compromising precision or recall score. precision-recall tradeoff occur due to increasing one of the parameter(precision or recall) while keeping the model same.
 
 What is the ROC curve? When to use it?
 A receiver operating characteristic curve, or ROC curve, is a graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied. The ROC curve is created by plotting the true positive rate against the false positive rate at various threshold settings. ROC curves are frequently used to show in a graphical way the connection/trade-off between clinical sensitivity and specificity for every possible cut-off for a test or a combination of tests. In addition the area under the ROC curve gives an idea about the benefit of using the test(s) in question.
