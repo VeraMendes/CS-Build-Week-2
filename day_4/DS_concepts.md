@@ -101,7 +101,7 @@ When should you consider adding a multiple testing penalty? What are the tradeof
 
 
 What is PCA? When do we need to do PCA? How do you select the right number of components?  
-
+Principal component analysis. PCA should be used mainly for variables which are strongly correlated. If the relationship is weak between variables, PCA does not work well to reduce data. Refer to the correlation matrix to determine. In general, if most of the correlation coefficients are smaller than 0.3, PCA will not help.Don’t choose the number of components manually. Instead of that, use the option that allows you to set the variance of the input that is supposed to be explained by the generated components. We know that the principal components explain a part of the variance. From the Scikit-learn implementation, we can get the information about the explained variance and plot the cumulative variance to check the number of principal components we need.
 
 What is stacking? Give an example.  
 
