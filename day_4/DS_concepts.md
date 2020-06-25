@@ -206,7 +206,7 @@ What is logistic regression? When do we need to use it?
 
 
 Is logistic regression a linear model? Why?  
-
+Logistic regression is considered a generalized linear model because the outcome always depends on the sum of the inputs and parameters. ... Logistic regression is an algorithm that learns a model for binary classification.
 
 What is sigmoid? What does it do?  
 
