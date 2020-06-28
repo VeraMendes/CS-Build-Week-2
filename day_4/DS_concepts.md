@@ -113,7 +113,10 @@ Suppose you have continuous data for heights. In addition, you have categorical 
 
 
 How would you treat categorical features?  
-
+Numerical labels are always between 0 and n_classes-1. A common challenge with nominal categorical variable is that, it may decrease performance of a model.
+Convert to Number
+Using label encoder for conversion. ...
+Create a new feature using mean or mode (most relevant value) of each age bucket.
 
 What kinds of imputation techniques would you use for numeric and categorical features? What are the pros and cons to each?  
 
