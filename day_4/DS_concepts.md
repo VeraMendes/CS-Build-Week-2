@@ -793,9 +793,11 @@ With which programming languages and environments are you most comfortable worki
 Python
 Pipenv virtual environment, Anaconda Local environment, colab env
 
-What are some pros and cons about your favorite statistical software?
+What are some pros and cons about your favorite statistical software?  
 
-Tell me about an original algorithm you’ve created.
+
+Tell me about an original algorithm you’ve created.  
+
 
 Describe a data science project in which you worked with a substantial programming component. What did you learn from that experience?
 
