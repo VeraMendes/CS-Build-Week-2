@@ -799,14 +799,17 @@ What are some pros and cons about your favorite statistical software?
 Tell me about an original algorithm you’ve created.  
 
 
-Describe a data science project in which you worked with a substantial programming component. What did you learn from that experience?
+Describe a data science project in which you worked with a substantial programming component. What did you learn from that experience?  
+
 
 Do you contribute to any open-source projects?
 All the projects I done up to now are open-source projects.
 
-How would you clean a data set in (insert language here)?
+How would you clean a data set in (insert language here)?  
 
-Tell me about the coding you did during your last project?
+
+Tell me about the coding you did during your last project?  
+
 
 What are two main components of the Hadoop framework?  
 HDFS (storage) and MapReduce (processing) are the two core components of Apache Hadoop. 
@@ -814,117 +817,168 @@ HDFS (storage) and MapReduce (processing) are the two core components of Apache 
 Explain how MapReduce works as simply as possible.  
 The core idea behind MapReduce is mapping your data set into a collection of <key, value> pairs, and then reducing over all pairs with the same key. The overall concept is simple, but is actually quite expressive when you consider that: ... Almost all data can be mapped into <key, value> pairs somehow, and 2.
 
-How would you sort a large list of numbers?
+How would you sort a large list of numbers?  
 
-Say you’re given a large data set. What would be your plan for dealing with outliers? How about missing values? How about transformations?
 
-What modules/libraries are you most familiar with? What do you like or dislike about them?
+Say you’re given a large data set. What would be your plan for dealing with outliers? How about missing values? How about transformations?  
+
+
+What modules/libraries are you most familiar with? What do you like or dislike about them?  
+
 
 In Python, how is memory managed?
 Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the Python memory manager.
 
-What are the supported data types in Python?
+What are the supported data types in Python?  
+
 
 What is the difference between a tuple and a list in Python?
  List and Tuple in Python are the class of data structure. The list is dynamic, whereas tuple has static characteristics. ... Tuple is also a sequence data type that can contain elements of different data types, but these are immutable in nature.
 
-What are the different types of sorting algorithms available in R language?
+What are the different types of sorting algorithms available in R language?  
 
-What are the different data objects in R?
 
-What packages are you most familiar with? What do you like or dislike about them?
+What are the different data objects in R?  
 
-How do you access the element in the 2nd column and 4th row of a matrix named M?
 
-What is the command used to store R objects in a file?
+What packages are you most familiar with? What do you like or dislike about them?  
 
-What is the best way to use Hadoop and R together for analysis?
 
-How do you split a continuous variable into different groups/ranks in R?
+How do you access the element in the 2nd column and 4th row of a matrix named M?  
 
-Write a function in R language to replace the missing value in a vector with the mean of that vector.
 
-What is the purpose of the group functions in SQL? Give some examples of group functions.
+What is the command used to store R objects in a file?  
 
-Tell me the difference between an inner join, left join/right join, and union.
 
-What does UNION do? What is the difference between UNION and UNION ALL?
+What is the best way to use Hadoop and R together for analysis?  
 
-What is the difference between SQL and MySQL or SQL Server?
 
-If a table contains duplicate rows, does a query result display the duplicate values by default? How can you eliminate duplicate rows from a query result?
+How do you split a continuous variable into different groups/ranks in R?  
+
+
+Write a function in R language to replace the missing value in a vector with the mean of that vector.  
+
+
+What is the purpose of the group functions in SQL? Give some examples of group functions.  
+
+
+Tell me the difference between an inner join, left join/right join, and union.  
+
+
+What does UNION do? What is the difference between UNION and UNION ALL?  
+
+
+What is the difference between SQL and MySQL or SQL Server?  
+
+
+If a table contains duplicate rows, does a query result display the duplicate values by default? How can you eliminate duplicate rows from a query result?  
+
 
 ### Problem-Solving
 
-How would you come up with a solution to identify plagiarism?
+How would you come up with a solution to identify plagiarism?  
 
-How many “useful” votes will a Yelp review receive?
 
-How do you detect individual paid accounts shared by multiple users?
+How many “useful” votes will a Yelp review receive?  
 
-You are about to send a million emails. How do you optimize delivery? How do you optimize response?
 
-You have a data set containing 100,000 rows and 100 columns, with one of those columns being our dependent variable for a problem we’d like to solve. How can we quickly identify which columns will be helpful in predicting the dependent variable. Identify two techniques and explain them to me as though I were 5 years old.
+How do you detect individual paid accounts shared by multiple users?  
+
+
+You are about to send a million emails. How do you optimize delivery? How do you optimize response?  
+
+
+You have a data set containing 100,000 rows and 100 columns, with one of those columns being our dependent variable for a problem we’d like to solve. How can we quickly identify which columns will be helpful in predicting the dependent variable. Identify two techniques and explain them to me as though I were 5 years old.  
+
 
 How would you detect bogus reviews, or bogus Facebook accounts used for bad purposes?
-This is an opportunity to showcase your knowledge of machine learning algorithms; specifically, sentiment analysis and text analysis algorithms. Showcase your knowledge of fraudulent behavior—what are the abnormal behaviors that can typically be seen from fraudulent accounts?
+This is an opportunity to showcase your knowledge of machine learning algorithms; specifically, sentiment analysis and text analysis algorithms. Showcase your knowledge of fraudulent behavior—what are the abnormal behaviors that can typically be seen from fraudulent accounts?  
 
-How would you perform clustering on a million unique keywords, assuming you have 10 million data points—each one consisting of two keywords, and a metric measuring how similar these two keywords are? How would you create this 10 million data points table in the first place?
 
-How would you optimize a web crawler to run much faster, extract better information, and better summarize data to produce cleaner databases?
+How would you perform clustering on a million unique keywords, assuming you have 10 million data points—each one consisting of two keywords, and a metric measuring how similar these two keywords are? How would you create this 10 million data points table in the first place?  
+
+
+How would you optimize a web crawler to run much faster, extract better information, and better summarize data to produce cleaner databases?  
+
 
 ### Culture Fit
 
-Which data scientists do you admire most? Which startups?
+Which data scientists do you admire most? Which startups?  
 
-What do you think makes a good data scientist?
 
-How did you become interested in data science?
+What do you think makes a good data scientist?  
 
-Give a few examples of “best practices” in data science.
 
-What is the latest data science book / article you read? What is the latest data mining conference / webinar / class / workshop / training you attended?
+How did you become interested in data science?  
 
-What’s a project you would want to work on at our company?
 
-What unique skills do you think you’d bring to the team?
+Give a few examples of “best practices” in data science.  
 
-What data would you love to acquire if there were no limitations?
 
-Have you ever thought about creating your own startup? Around which idea / concept?
+What is the latest data science book / article you read? What is the latest data mining conference / webinar / class / workshop / training you attended?  
 
-What can your hobbies tell me that your resume can’t?
 
-What are your top 5 predictions for the next 20 years?
+What’s a project you would want to work on at our company?  
 
-What did you do today? Or what did you do this week / last week?
 
-If you won a million dollars in the lottery, what would you do with the money?
+What unique skills do you think you’d bring to the team?  
 
-What is one thing you believe that most people do not?
 
-What personality traits do you butt heads with?
+What data would you love to acquire if there were no limitations?  
 
-What (outside of data science) are you passionate about?
+
+Have you ever thought about creating your own startup? Around which idea / concept?  
+
+
+What can your hobbies tell me that your resume can’t?  
+
+
+What are your top 5 predictions for the next 20 years?  
+
+
+What did you do today? Or what did you do this week / last week?  
+
+
+If you won a million dollars in the lottery, what would you do with the money?  
+
+
+What is one thing you believe that most people do not?  
+
+
+What personality traits do you butt heads with?  
+
+
+What (outside of data science) are you passionate about?  
+
 
 ### Past experience (behavior)
 
-Tell me about a time when you took initiative.
+Tell me about a time when you took initiative.  
 
-Tell me about a time when you had to overcome a dilemma.
 
-Tell me about a time when you resolved a conflict.
+Tell me about a time when you had to overcome a dilemma.  
 
-Tell me about a time you failed and what you have learned from it.
 
-Tell me about (a job on your resume). Why did you choose to do it and what do you like most about it?
+Tell me about a time when you resolved a conflict.  
 
-Tell me about a challenge you have overcome while working on a group project.
 
-When you encountered a tedious, boring task, how would you deal with it and motivate yourself to complete it?
+Tell me about a time you failed and what you have learned from it.  
 
-What have you done in the past to make a client satisfied/happy?
 
-What have you done in your previous job that you are really proud of?
+Tell me about (a job on your resume). Why did you choose to do it and what do you like most about it?  
 
-What do you do when your personal life is running over into your work life?
+
+Tell me about a challenge you have overcome while working on a group project.  
+
+
+When you encountered a tedious, boring task, how would you deal with it and motivate yourself to complete it?  
+
+
+What have you done in the past to make a client satisfied/happy?  
+
+
+What have you done in your previous job that you are really proud of?  
+
+
+What do you do when your personal life is running over into your work life?  
+
