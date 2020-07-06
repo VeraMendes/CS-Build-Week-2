@@ -20,7 +20,7 @@ Stratified sampling also divides the population into groups called strata. Howev
 What is the difference between type I vs type II error?  
 In statistical hypothesis testing, a type I error is the rejection of a true null hypothesis, while a type II error is the non-rejection of a false null hypothesis.
 
-What is the elbow method and why do we use it?  
+What is the elbow method and why do we use it?    
 n cluster analysis, the elbow method is a heuristic used in determining the number of clusters in a data set. The method consists of plotting the explained variation as a function of the number of clusters, and picking the elbow of the curve as the number of clusters to use.
 
 What is linear regression? What do the terms p-value, coefficient, and r-squared value mean? What is the significance of each of these components?  
@@ -981,4 +981,6 @@ What have you done in your previous job that you are really proud of?
 
 
 What do you do when your personal life is running over into your work life?  
+I have to find a way of balancing it.
+
 
