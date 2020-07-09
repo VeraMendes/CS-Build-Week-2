@@ -979,7 +979,7 @@ What have you done in the past to make a client satisfied/happy?
 
 
 What have you done in your previous job that you are really proud of?  
-
+I planned and executed the implementation of a new MRI system end-to-end which allowed the department to double its patient intake.
 
 What do you do when your personal life is running over into your work life?  
 I have to find a way of balancing it.
