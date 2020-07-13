@@ -932,7 +932,10 @@ Have you ever thought about creating your own startup? Around which idea / conce
 
 
 What can your hobbies tell me that your resume can’t?  
-
+Yoga - I can easily navigate situations of stress and I'm very careful with my health.
+Swimming - I like complete sports as I like to deliver fully projects well finished paying attention to detail.
+Hiking - I like to explore and find different solutions, so I can choose the best one for my problem.
+Cooking - I am hwalthy in body and mind and I like my products to reflect that.
 
 What are your top 5 predictions for the next 20 years?  
 
