@@ -632,7 +632,7 @@ What is collaborative filtering?
 Collaborative filtering is a technique used by recommender systems. Collaborative filtering has two senses, a narrow one and a more general one.
 
 How we can incorporate implicit feedback (clicks, etc) into our recommender systems?  
-
+When the recommender system gives out some recommendations, we can check the ones that the user actually takes and the ones the user repeats and this will help to make the recommender system better based not only on the type of product but on the user preferences. We can make the preferences better for that user and using collaborative system, we are using a user's preferences to adapt them to other users with similar profiles.
 
 What is the cold start problem?  
 Cold start in computing refers to a problem where a system or its part was created or restarted and is not working at its normal operation. The problem can be related to initialising internal objects or populating cache or starting up subsystems.
