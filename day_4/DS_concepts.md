@@ -929,7 +929,7 @@ What data would you love to acquire if there were no limitations?
 
 
 Have you ever thought about creating your own startup? Around which idea / concept?  
-
+I did not think about it, but if I would do it I believe it would be in Healthcare- Radiology.
 
 What can your hobbies tell me that your resume can’t?  
 Yoga - I can easily navigate situations of stress and I'm very careful with my health.
