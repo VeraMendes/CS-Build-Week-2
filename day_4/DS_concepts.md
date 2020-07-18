@@ -964,7 +964,7 @@ Tell me about a time when you had to overcome a dilemma.
 
 
 Tell me about a time when you resolved a conflict.  
-
+In the hospital, two of my staff members had a disagreement. I need them to work together, so I asked them to meet and solve their disagreement at least that in a work environment they would be able to be professional and work together. I told them if they would not solve the problem between them, I would have to intervein and meet with both of them to sort the matter. Happilly they were able to solve the situation between them two and I did not need to intervein. 
 
 Tell me about a time you failed and what you have learned from it.  
 
@@ -979,7 +979,7 @@ When you encountered a tedious, boring task, how would you deal with it and moti
 
 
 What have you done in the past to make a client satisfied/happy?  
-
+I listen to them.
 
 What have you done in your previous job that you are really proud of?  
 I planned and executed the implementation of a new MRI system end-to-end which allowed the department to double its patient intake.
