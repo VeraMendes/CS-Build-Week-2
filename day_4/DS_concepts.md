@@ -908,7 +908,7 @@ Which data scientists do you admire most? Which startups?
 
 
 What do you think makes a good data scientist?  
-
+A curious person, someone who has a deep understanding of statistics and is able to process his/her analysis and modelling thoughts through code being able to present the results easily with good visualizations for a technical and non-technical audience. 
 
 How did you become interested in data science?  
 
@@ -953,7 +953,7 @@ What personality traits do you butt heads with?
 
 
 What (outside of data science) are you passionate about?  
-
+Yoga, travel and cultures, beach.
 
 ### Past experience (behavior)
 
