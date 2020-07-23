@@ -976,7 +976,7 @@ Tell me about a challenge you have overcome while working on a group project.
 
 
 When you encountered a tedious, boring task, how would you deal with it and motivate yourself to complete it?  
-
+Create deadlines to myself. Find ways of making the task a little more interesting inside its area, maybe the team might help for that matter.
 
 What have you done in the past to make a client satisfied/happy?  
 I listen to them.
