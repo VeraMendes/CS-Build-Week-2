@@ -970,7 +970,7 @@ Tell me about a time you failed and what you have learned from it.
 
 
 Tell me about (a job on your resume). Why did you choose to do it and what do you like most about it?  
-
+I love statistics. Data Science feels like being able to do magic, I love the outcomes of being able to use Data Science tools.
 
 Tell me about a challenge you have overcome while working on a group project.  
 
