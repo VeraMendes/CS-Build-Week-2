@@ -920,10 +920,10 @@ What is the latest data science book / article you read? What is the latest data
 
 
 What’s a project you would want to work on at our company?  
-
+Data Analysis.
 
 What unique skills do you think you’d bring to the team?  
-
+My extensive healthcare experience and my previous management skills.
 
 What data would you love to acquire if there were no limitations?  
 
