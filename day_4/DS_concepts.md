@@ -944,7 +944,7 @@ What did you do today? Or what did you do this week / last week?
 
 
 If you won a million dollars in the lottery, what would you do with the money?  
-
+I would only work as an hobby, help my family and friends, invest my money and would like to travel the World. 
 
 What is one thing you believe that most people do not?  
 
